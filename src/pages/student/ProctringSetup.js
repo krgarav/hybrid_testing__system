@@ -131,7 +131,7 @@ const ProctoringSetup = () => {
 
   return (
     <>
-      {!isVerifying && (
+      {isVerifying && (
         <div
           style={{
             position: "absolute",
