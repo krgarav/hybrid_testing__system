@@ -1,0 +1,254 @@
+/* @import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css'; */
+
+@import "../node_modules/@syncfusion/ej2-calendars/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-dropdowns/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-icons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-lists/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-richtexteditor/styles/material.css";
+
+@import "../node_modules/@syncfusion/ej2-richtexteditor/styles/material.css";
+
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-icons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-lists/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-richtexteditor/styles/material.css";
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+div[style="display: none; position: fixed; top: 10px; left: 10px; right: 10px; font-size: 14px; background: #EEF2FF; color: #222222; z-index: 999999999; text-align: left; border: 1px solid #EEEEEE; padding: 10px 11px 10px 50px; border-radius: 8px; font-family: Helvetica Neue, Helvetica, Arial;"] {
+    display: none;
+}
+
+
+/* FINAL SUBMIT  PAGE  */
+.score-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #fff;
+    border: 1px solid green;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.message {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.summary {
+    margin-bottom: 30px;
+}
+
+.summary-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.summary-item i {
+    margin-right: 10px;
+}
+
+.submitted {
+    color: green;
+}
+
+.skipped {
+    color: rgb(214, 214, 90);
+}
+
+.attempted {
+    color: red;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #555;
+    background-color: rgb(212, 212, 86);
+}
+
+.greenTick {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.yellowTick {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+    background-color: rgb(209, 209, 71);
+    margin-right: 27px;
+}
+
+.redTick {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.test_screen_left {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.test_screen_right {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.skip_btn:hover {
+    color: white !important;
+}
+
+/* MEDIA QUERY  */
+
+@media (max-width: 768px) {
+    .test_screen_main {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .test_screen_left {
+        width: 95% !important;
+    }
+
+    .test_screen_right {
+        width: 95% !important;
+        margin-left: 20px !important;
+    }
+
+    .fs {
+        font-size: 12px !important;
+    }
+}
+
+
+
+/* Custom scrollbar style for specific div */
+.custom-scrollbar {
+    /* Adjust scrollbar width as desired */
+    /* scrollbar-width: d; Firefox */
+    /* scrollbar-color:#000 ; */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 7px;
+    /* Width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #899bae;
+    /* Color of the thumb */
+    border-radius: 10px;
+    /* Roundness of the thumb */
+}
+
+.custom-scrollbar {
+    -ms-overflow-style: none;
+    /* Hide scrollbar */
+}
+
+.custom-scrollbar:hover {
+    -ms-overflow-style: auto;
+    /* Show scrollbar on hover */
+}
+
+/* .custom-scrollbar::-webkit-scrollbar {
+    display: none;
+  } */
+
+/* Show scrollbar on hover */
+.custom-scrollbar:hover::-webkit-scrollbar {
+    display: auto;
+}
+
+.dropdown-menu {
+    left: 0;
+    right: auto;
+}
+
+
+
+
+.table-row-hover tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.table-row-hover tbody tr:hover {
+    background-color: #f1f1f1;
+    /* Change this to your desired hover color */
+    transform: scale(1);
+    /* Slightly increase the size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Add shadow effect */
+    z-index: 1;
+    /* Bring the hovered row above other rows */
+}
+
+.custom-modal .modal-dialog {
+    max-width: 50vw;
+}

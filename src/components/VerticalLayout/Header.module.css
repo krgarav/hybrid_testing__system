@@ -1,0 +1,27 @@
+.sidebar {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+.mainpage {
+  background-color: rgba(33, 33, 33, 0.8);
+  backdrop-filter: blur(10px);
+  backface-visibility: hidden;
+  filter: blur(5px);
+  pointer-events: none;
+  overflow-y: hidden;
+  height: 100vh;
+}
+.divPage {
+  position: absolute;
+  background-color: rgba(33, 33, 33, 0.8);
+  backface-visibility: hidden;
+  overflow-y: hidden;
+  opacity: 0.8;
+  z-index: 4;
+  width: 100dvw;
+  overflow: hidden;
+}
+.icon {
+  background-color: white;
+}
